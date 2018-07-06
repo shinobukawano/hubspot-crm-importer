@@ -38,6 +38,10 @@ You can also set the owner of objects using `hubspot_owner_email` column. It fin
 
 <img src="assets/2.png" width="300"/>
 
+## Troubleshooting
+
+If the script does not work properly, please confirm `import.log` which will be generated in the root directory of the project. You may find information about the issue.
+
 ## License
 
 This software is licensed under the MIT License.

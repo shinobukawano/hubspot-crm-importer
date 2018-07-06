@@ -114,7 +114,11 @@ def create_companies_to_hs():
             r = requests.post(url, json=company)
 
             name = company.get('name')
-            logger.info(str(r.status_code) + ' - Company: '+ name)
+            status_code = r.status_code
+            logger.info(str(status_code) + ' - Company: '+ name)
+
+            if status_code != 200:
+                logger.info(r.json())
 
             company['id'] = r.json().get('companyId')
 
@@ -190,7 +194,11 @@ def create_contacts_to_hs():
             r = requests.post(url, json=contact)
 
             name = contact.get('name')
-            logger.info(str(r.status_code) + ' - Contact: '+ name)
+            status_code = r.status_code
+            logger.info(str(status_code) + ' - Contact: '+ name)
+
+            if status_code != 200:
+                logger.info(r.json())
 
             contact['vid'] = r.json().get('vid')
 
@@ -325,7 +333,11 @@ def create_deals_to_hs():
             r = requests.post(url, json=deal)
 
             name = deal.get('name')
-            logger.info(str(r.status_code) + ' - Deal: '+ name)
+            status_code = r.status_code
+            logger.info(str(status_code) + ' - Deal: '+ name)
+
+            if status_code != 200:
+                logger.info(r.json())
 
         except Exception as e:
             logger.info(e.args)
@@ -350,4 +362,3 @@ if __name__ == "__main__":
     create_deals_to_hs()
 
     logger.info("Congratulations! Your data migration is completed. :)")
-
