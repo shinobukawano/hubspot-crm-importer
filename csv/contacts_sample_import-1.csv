@@ -1,0 +1,12 @@
+First Name,Last Name,Email,Phone Number,Street Address,City,State,Contact Owner,Lifecycle Stage,Lead Status,Favorite Color,contact_id,company_id,hubspot_owner_email
+Leslie,Knope,leslie.knope@cocaola.com,555-843-8116,68 Street Rd,Pawnee,IN,joe@hubspot.com,Subscriber,Unqualified,Blue,1,1,
+Ron,Swanson,ron.swanson@cocaola.com,555-684-3214,2 Street Rd,Pawnee,IN,jane@hubspot.com,Lead,Open,Blue,2,,
+April,Ludgate,april.ludgate@cocaola.com,555-879-2050,14 Street Rd,Pawnee,IN,luke@hubspot.com,Lead,Unqualified,Green,3,1,
+Andy,Dwyer,andy.dwyer@netflix.com,555-715-8261,73 Street Rd,Pawnee,IN,leia@hubspot.com,Opportunity,Open Deal,Blue,4,,
+Tom,Haverford,tom.haverford@netflix.com,555-452-9889,24 Street Rd,Pawnee,IN,leia@hubspot.com,Customer,Open Deal,Green,5,1,
+Jerry,Gergich,jerry.gergich@boeing.com,555-792-3506,9 Street Rd,Pawnee,IN,leia@hubspot.com,Opportunity,In Progress,Red,6,,
+Donna,Meagle,donna.meagle@boeing.com,555-595-7884,21 Street Rd,Pawnee,IN,luke@hubspot.com,Opportunity,In Progress,Red,7,,
+Ann,Perkins,ann.perkins@primeconsulting.com,555-207-1944,72 Street Rd,Pawnee,IN,luke@hubspot.com,Lead,Open,Blue,8,,
+Ben,Wyatt,ben.wyatt@primeconsulting.com,555-589-8082,6 Street Rd,Pawnee,IN,joe@hubspot.com,Lead,Unqualified,Green,9,,
+Chris,Traeger,chris.traeger@homefences.com,555-905-1315,67 Street Rd,Pawnee,IN,jane@hubspot.com,Lead,Unqualified,Green,10,,
+Perd,Hapley,perd.hapley@homefences.com,555-546-4162,35 Street Rd,Pawnee,IN,luke@hubspot.com,Opportunity,Open Deal,Blue,11,,
