@@ -32,11 +32,11 @@ Open your terminal, and execute `python main.py` command. It loads those files f
 
 `company_id` and `contact_id` columns in csv files is the secret of it. The script associates objects based on values of them.
 
-<img src="assets/1.png" width="200"/>
+<img src="assets/1.png" width="700"/>
 
 You can also set the owner of objects using `hubspot_owner_email` column. It finds HubSpot user by given email address and assign it to objects.
 
-<img src="assets/2.png" width="200"/>
+<img src="assets/2.png" width="300"/>
 
 ## License
 
