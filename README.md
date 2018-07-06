@@ -1,6 +1,6 @@
 # HubSpot CRM Importer
 
-HubSpot offers the functionality of importing data from CSV file. You can import contact data, company data and deal data by using it. However, it has one limitation -- you can not associate objects with that. This is where this script shines. HubSpot CRM Importer script imports data from CSV into your HubSpot portal with beautiful relationships.
+HubSpot offers the functionality of importing data from CSV file. You can import contact data, company data and deal data by using it. However, it has one limitation -- you can not associate objects with that. This is where this script shines. HubSpot CRM Importer script imports data from CSV to your HubSpot portal with beautiful relationship. :)
 
 ## Requirements
 
