@@ -40,7 +40,7 @@ logger.addHandler(ch)
 
 
 def hs_timestamp(date):
-    """ date value should be m/d/Y format.
+    """ date value should be Y/m/d format.
     """
     if date is '':
         return None
