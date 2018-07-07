@@ -1,10 +1,17 @@
 # HubSpot CRM Importer
 
-HubSpot offers the functionality of importing data from CSV file. You can import contact data, company data and deal data by using it. However, it has one limitation -- you can not associate objects with that. This is where this script shines. HubSpot CRM Importer script imports data from CSV to your HubSpot portal with beautiful relationship. :)
+HubSpot offers a functionality of importing CRM data from CSV file. You can import contacts, companies, and deals by using it. However, it has one big limitation -- you can not associate those objects. This is where `HubSpot CRM Importer` script shines. This script imports data from CSV to your HubSpot portal with a beautiful relationship. :)
 
 ## Requirements
 
 - Python 3+
+
+The following articles might helpful to install Python 3+ if you have not installed.
+
+- [Installing Python 3 on Mac OS X](http://docs.python-guide.org/en/latest/starting/install3/osx/)
+- [How to Install Python on Windows](https://www.howtogeek.com/197947/how-to-install-python-on-windows/)
+
+*If you’re using Python 2.7.9 (or greater) or Python 3.4 (or greater), then PIP comes installed with Python by default.*
 
 ## Getting Started
 
@@ -24,7 +31,7 @@ HubSpot offers the functionality of importing data from CSV file. You can import
 
 You can run this script with [sample import files from HubSpot Academy](https://knowledge.hubspot.com/articles/kcs_article/contacts/sample-import-files).
 
-Open your terminal, and execute `python main.py` command. It loads those files from `csv` directory  and creates contacts, companies, and deals records into your HubSpot portal.
+Open your terminal, and execute `python main.py` command. It loads those files from `csv` directory and creates contacts, companies, and deals data into your HubSpot portal.
 
 <img src="assets/3.gif" width="500"/>
 
@@ -45,4 +52,3 @@ If the script does not work properly, please confirm `import.log` which will be 
 ## License
 
 This software is licensed under the MIT License.
-
