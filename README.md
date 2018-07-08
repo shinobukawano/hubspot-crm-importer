@@ -47,7 +47,7 @@ You can also set the owner of objects using `hubspot_owner_email` column. It fin
 
 ## Applying the script in the real environment
 
-I assume you will need to edit some portion of the script to fit the real environment. For instance, you may want to add properties of objects or modify column names of CSV files from default, etc. Feel free to adjust the script. I hope this script become a good starting point for your migration.
+I assume you will need to edit some portion of the script to meet your real environment. You may want to add properties of objects or modify column names of CSV files, etc. Feel free to adjust the script. I hope this script become a good starting point for your migration.
 
 ## Troubleshooting
 
