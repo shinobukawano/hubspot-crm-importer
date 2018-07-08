@@ -17,7 +17,7 @@ The following articles might helpful to install Python 3+ if you have not instal
 
 1.Clone the repository.
 
-    $ git clone https://github.com/shinobukawano/hubspot_crm_importer
+    $ git clone https://github.com/shinobukawano/hubspot-crm-importer
 
 2.Install [Requests](http://docs.python-requests.org/en/master/) library.
 
