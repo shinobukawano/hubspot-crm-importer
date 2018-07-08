@@ -1,6 +1,6 @@
 # HubSpot CRM Importer
 
-HubSpot offers a functionality of importing CRM data from CSV file. You can import contacts, companies, and deals by using it. However, it has one big limitation -- you can not associate those objects. This is where `HubSpot CRM Importer` script shines. This script imports data from CSV files into your HubSpot portal with a beautiful relationship. :)
+HubSpot offers a functionality of importing CRM data from CSV files. You can import contacts, companies, and deals by using it. However, it has one big limitation — you can not associate those objects when importing data. This is where HubSpot CRM Importer script shines. This script imports data from CSV files into your HubSpot portal with beautiful relationships. :)
 
 ## Requirements
 
@@ -44,6 +44,10 @@ Open your terminal, and execute `python main.py` command. It loads those files f
 You can also set the owner of objects using `hubspot_owner_email` column. It finds HubSpot user by given email address and assign it to objects.
 
 <img src="assets/2.png" width="300"/>
+
+## Applying the script in the real environment
+
+I assume you will need to edit some portion of the script to fit the real environment. For instance, you may want to add properties of objects or modify column names of CSV files from default, etc. Feel free to adjust the script. I hope this script become a good starting point for your migration.
 
 ## Troubleshooting
 
